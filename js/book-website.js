@@ -34,12 +34,12 @@ const displaySearchResult = books =>{
     const totalBook = document.getElementById('total-book');
     const div = document.createElement('div');
     div.innerHTML = `
-    <h1 class="text-center">Total Book = ${books.length}</h1>
+    <h1 class="text-center text-success">Find Book = ${books.length}</h1>
     `
     searchResult.appendChild(div);
 
     books.forEach(book =>{
-        console.log(book);
+        //console.log(book);
         const div = document.createElement('div');
         div.classList.add('col-md-3');
         div.innerHTML = `
