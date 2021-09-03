@@ -14,6 +14,7 @@
   </head>
   <body>
     <h1 class="text-center">Welcome to my bookWebsite</h1>
+
     <section>
       <div class="input-group mb-3 w-50 mx-auto">
         <input
@@ -33,13 +34,14 @@
           search
         </button>
       </div>
+      <div id="error-message"></div>
+    </section>
+    <section>
+      <div class="text-center" id="total-book"></div>
     </section>
     <!-- search result display section  -->
     <section>
-      <div
-        id="search-result"
-        class="row row-cols-1 row-cols-md-3 g-4 w-80 mx-auto"
-      ></div>
+      <div id="search-result" class="row g-4 w-80"></div>
     </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
